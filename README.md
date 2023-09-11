@@ -1,7 +1,7 @@
 # Grupo 7
 Este es el repositorio del *Grupo 7*, cuyos integrantes son:
 * Integrante 1
-* Integrante 2
+* Maximiliano Bardi
 * Integrante 3
 * **Tutor**: Rodrigo Ramírez
 
