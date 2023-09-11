@@ -1,6 +1,6 @@
 # Grupo 7
 Este es el repositorio del *Grupo 7*, cuyos integrantes son:
-* Integrante 1
+* Nicolas Barahona
 * Maximiliano Bardi
 * Javiera Osorio
 * **Tutor**: Rodrigo Ramírez
