@@ -6,7 +6,7 @@ Este es el repositorio del *Grupo 7*, cuyos integrantes son:
 * **Tutor**: Rodrigo Ramírez
 
 ## Wiki
-Para poder ir a la wiki clickea en [Wiki]((https://github.com/Zurickata/INF236-2023-2-GRUPO-7/wiki))
+Para poder ir a la wiki clickea [aquí](https://github.com/Zurickata/INF236-2023-2-GRUPO-7/wiki)
 
 ## Aspectos técnicos relevantes
 Mern Stack code for the [Mern Tutorial](https://www.mongodb.com/languages/mern-stack-tutorial)
