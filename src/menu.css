@@ -1,0 +1,42 @@
+.botonmenu {
+    background-color: #8580DF; 
+    color: white; 
+    padding: 15px 32px; 
+  
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    border: none; 
+    cursor: pointer;
+    transition: .3s ease;
+    border-radius: 25px;
+  }
+  
+.botonmenu:hover {
+    background-color: #9892FF; 
+    box-shadow: 0 0 2px #9892FF, 0 0 10px #9892FF, 0 0 20px #9892FF;
+}
+
+.textomenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* esto hace que el div ocupe toda la altura de la ventana */
+  }
+  
+.imagenmenu {
+    width: 50%;
+    height: auto;
+}
+.botonesmenu {
+    display: flex;
+    gap: 20px; /* esto añade un espacio entre los botones */
+  }
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+  
