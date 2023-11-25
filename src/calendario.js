@@ -42,7 +42,32 @@ const Calendario = () => {
               <p>Fecha seleccionada: {date.toDateString()}</p>
             </div>
           )}
+
         </div>
+        <div className='casillap' id='casillap'>
+          <label>
+            <span>Horario</span>
+            <input
+              type="text"
+              className="casillap"
+              value={nombre}
+              onChange={e => setNombre(e.target.value)}
+              onFocus={abrirCalendario}
+            />
+          </label>
+          {mostrarCalendario && (
+            <div>
+              <Calendar onChange={onChange} value={date} />
+              <button onClick={cerrarCalendario}>Cerrar</button>
+              <p>Hora seleccionada: {date.toDateString()}</p>
+            </div>
+          )}
+          
+        </div>
+        <div class= "boton" id = "boton">
+            <input type="submit" className="button1" value="Confirmar fecha" />
+          </div>
+
       </div>
     </div>
   );
