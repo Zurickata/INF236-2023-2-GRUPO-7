@@ -18,16 +18,38 @@ form {
   
 }
 
-.h1 {
-
-  color: #8580DF;
+.cuadritop {
+  background-color: #E9EAEE; 
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
 }
 
 
-.casilla1 {
+.cuadritop h1 {
+  font-family: 'Questrial', sans-serif;
+  color: #8580DF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+
+
+.casilla11 {
+  border-radius: 10px;
+ 
+  font-family: 'Noto Serif Display', serif;
   padding: 5px;
   border-radius: 5px;
   border: 1px solid #ccc;
+
 
 }
 
@@ -48,6 +70,20 @@ form {
   gap: 30px;
   display: flex;
 }
+.boto{
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 260px;
+
+}
+.boton2{
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-left: 280px;
+
+}
 
 .button1 {
   background-color: #8580DF; 
@@ -63,7 +99,14 @@ form {
   border-radius: 25px;
 }
 
-.button1:hover {
-  background-color: #9892FF; 
-  box-shadow: 0 0 2px #9892FF, 0 0 10px #9892FF, 0 0 20px #9892FF;
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imagen.jpg);
+  background-size: cover;
+  background-position: center;
 }

@@ -1,28 +1,36 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './menu.css';
-import myImage from './menu.jpg'; // Asegúrate de reemplazar esto con la ruta a tu imagen
+import './css/menu.css';
+import App from './App';
+import CancelarHora from './cancelar_hora';
+import { useNavigate } from 'react-router-dom';
 
-class Menu extends React.Component {
-  render() {
-    return (
-      <div className="textomenu">
-        <h1>Menú</h1>
-        <div className="contenedor-imagen">
-            <img src={myImage} alt="Mi imagen" style={{width: '50%', height: 'auto'}} /> {/* Aquí es donde se agrega la imagen */}
-        </div> 
-        <div className="botones">
-            <button className="botonmenu">Registrar hora</button>
-            <Link to="/cancelar-hora">
-              <button className="botonmenu">Cancelar hora</button>
+function Menu() {
+  const navigate = useNavigate(); 
+  const handleSubmit = (event) => {
+      event.preventDefault();
+      navigate('/App.js');
+     
+  };
+  
+  return (
+    <form onSubmit={handleSubmit}>
+      <div className="cuadri">
+        <div className='contenido'>
+          <h1>Menú</h1>
+          <p>Selecciona lo que quieres hacer hoy</p>
+          <div className="botones">
+            <Link to="/App">
+              <button className="button1" >Registrar hora</button>
             </Link>
+            <Link to="/cancelar-hora">
+              <button className="button1" >Cancelar hora</button>
+            </Link>
+          </div>
         </div>
       </div>
-    );
-  }
+    </form>
+  );
 }
 
 export default Menu;
-
-
-

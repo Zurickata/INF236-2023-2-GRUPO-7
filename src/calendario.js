@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './css/calendario.css';
-
+import { Link } from 'react-router-dom';
 const HoraSelector = ({ hora, setHora }) => {
   const handleChange = event => {
     setHora(event.target.value);
@@ -93,8 +93,12 @@ const Calendario = () => {
             )}
           </label>
         </div>
-        <div className="boton" id="boton">
-          <input type="submit" className="button1" value="Agendar fecha" />
+        <div className="bot" id="bot">
+          <Link to="/">
+            <input type="submit" className="button1" value="Agendar fecha" />
+      
+          </Link>
+          
         </div>
       </div>
     </div>

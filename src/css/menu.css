@@ -1,42 +1,81 @@
-.botonmenu {
-    background-color: #8580DF; 
-    color: white; 
-    padding: 15px 32px; 
-  
-    text-decoration: none; 
-    display: inline-block;
-    font-size: 16px;
-    border: none; 
-    cursor: pointer;
-    transition: .3s ease;
-    border-radius: 25px;
-  }
-  
-.botonmenu:hover {
-    background-color: #9892FF; 
-    box-shadow: 0 0 2px #9892FF, 0 0 10px #9892FF, 0 0 20px #9892FF;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Agregar box-sizing para un mejor manejo del espacio */
+  font-family: sans-serif;
+}
+.html{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(imagen.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
 }
 
-.textomenu {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* esto hace que el div ocupe toda la altura de la ventana */
-  }
-  
-.imagenmenu {
-    width: 50%;
-    height: auto;
+.cuadri {
+  height: 100vh; /* Ajustar el tamaño al 100% del viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(imagen.jpg);
+  background-size: cover;
+  background-position: center;
 }
-.botonesmenu {
-    display: flex;
-    gap: 20px; /* esto añade un espacio entre los botones */
-  }
-.contenedor-imagen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+
+.contenido {
+  text-align: center;
+  color: #fff;
 }
-  
+
+.contenido h1 {
+  font-size: 3em; /* Ajustar el tamaño del encabezado */
+  margin-bottom: 20px; /* Añadir margen inferior para separar del párrafo */
+}
+
+.contenido p {
+  margin-bottom: 30px; /* Añadir más espacio debajo del párrafo */
+  font-weight: 300; /* Modificar el peso de la fuente */
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button1 {
+  background-color: #8580df;
+  color: white;
+  padding: 15px 40px;
+  font-family: 'Questrial', sans-serif;
+  text-decoration: none;
+  font-size: 1.1em;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.button1:hover {
+  background-color: #9892ff;
+  box-shadow: 0 0 2px #9892ff, 0 0 10px #9892ff, 0 0 20px #9892ff;
+}
+body:not(.cuadri) { 
+
+  font-family: sans-serif;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imagen.jpg);
+  background-size: cover;
+  background-position: center;
+}
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imagen.jpg);
+  background-size: cover;
+  background-position: center;
+}
+

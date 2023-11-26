@@ -25,22 +25,22 @@ function App() {
           <div className='casilla1-2' id= 'casilla1-2'>
             <div className="opciones">
               <label>
-                Nombre del paciente<br />
+                <p>Nombre del paciente</p>
                 <input type="text" className="casilla1" value={nombre} onChange={(e) => setNombre(e.target.value)} />
               </label>
             </div>
             <div className="opcion">
               <label>
-                RUT<br />
+                <p> RUT</p>
                 <input type="text" className="casilla1" value={rut} onChange={(e) => setRut(e.target.value)} />
               </label>
             </div>
           </div>
 
           <div className='casilla1-2' id= 'casilla1-2'>
-            <div className="opciones2" id ="opciones2">
+            <div className="opciones" id ="opciones">
               <label>
-                Tipo de examen<br />
+                <p> Tipo de examen</p>
                 <select className="casilla1" value={examen} onChange={(e) => setExamen(e.target.value)}>
                   <option value="Nada"></option>
                   <option value="Imageonología">Imageonología</option>
@@ -49,9 +49,9 @@ function App() {
                 </select>
               </label>
             </div>
-            <div className="opcion2" id = "opcion2">
+            <div className="opcion" id = "opcion">
               <label>
-                Médico derivante<br />
+                <p> Médico derivante</p>
                 <select className="casilla1" value={medico} onChange={(e) => setMedico(e.target.value)}>
                   <option value="Nada"></option>
                   <option value="Nicolás Barahona">Nicolás Barahona</option>
@@ -64,7 +64,7 @@ function App() {
 
           <div className="opciones3">
             <label>
-              Motivo del examen<br />
+              <p> Motivo del examen</p>
               <textarea className="casilla1" value={motivo} onChange={(e) => setMotivo(e.target.value)} />
             </label>
           </div>
