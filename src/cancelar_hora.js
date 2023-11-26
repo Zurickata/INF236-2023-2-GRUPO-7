@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './cancelar_hora.css';
+import './css/cancelar_hora.css';
 
 function CancelarHora() {
   const [nombre, setNombre] = useState("");

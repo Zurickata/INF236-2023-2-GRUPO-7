@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 form {
   height: 100%;
   gap: 20px;
@@ -13,20 +14,19 @@ form {
 }
 
 html {
-  background-color: #ffffff; /* Color blanco para el fondo de la página */
+  background-image: url('pls.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family:'Noto Serif Balinese', serif;
   height: 100%;
   margin: 0;
   
 }
 
-.main-container {
-  background-color: white; /* Cambia el color de fondo a blanco */
-  padding: 20px; /* Ajusta el espaciado según sea necesario */
-}
+
 
 .cuadrito {
-  background-color: #E9EAEE; /* Cambia el color de fondo a rojo */
+  background-color: #E9EAEE; 
   border-radius: 30px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
   position: relative;
@@ -116,6 +116,8 @@ html {
   align-items: center;
   justify-content: center;
 }
-body:not(.cuadrito) {
-  background-color: white; /* Texto en blanco para elementos fuera del cuadro */
+body:not(.cuadrito) { 
+  background-image: url('pls.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }

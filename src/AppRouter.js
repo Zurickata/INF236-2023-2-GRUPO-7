@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import App from './App';
+import App from './App.js';
 import CancelarHora from './cancelar_hora.js';
 import Calendario from './calendario.js';
 
