@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-calendar": "^4.6.1",
+    "react-datetime-picker": "^5.5.3",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0",
     "web-vitals": "^2.1.4"
