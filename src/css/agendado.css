@@ -29,6 +29,7 @@ p {
   color: #fff; 
   font-family: 'Noto Serif Display', serif;
   line-height: 1.5; 
+  margin-top: 50px;
 }
 .cuadrito {
   
@@ -75,33 +76,11 @@ p {
   justify-content: center;
 
 }
-.opciones {
-  margin-right: 100px;
-  margin-top: 30px;
 
-}
-.opcion {
-  margin-left: 90px;
-  margin-top: 30px;
+.opcionp5 {
+  margin-left: 80px;
+  margin-top: 200px;
 
-}
-.opciones2 {
-  margin-left: 100px;
-  margin-top: 30px;
-  
-
-}
-.opcion2 { 
-  margin-right: 100px;
-  margin-top: 30px;
-}
-.opciones3 {
-  font-family: 'Noto Serif Display', serif;
-  gap: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
 }
 
 .button1 {
@@ -118,11 +97,11 @@ p {
   border-radius: 25px;
   
 }
-.boton{
+.botonnp{
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-  margin-left: 250px;
+  margin-left: 30px;
 
 }
 .button1:hover {
@@ -147,11 +126,4 @@ html {
   background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imagen.jpg);
   background-size: cover;
   background-position: center;
-}
-.botop{
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
-  margin-left: 280px;
-
 }

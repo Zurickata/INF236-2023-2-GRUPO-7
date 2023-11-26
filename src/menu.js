@@ -26,6 +26,9 @@ function Menu() {
             <Link to="/cancelar-hora">
               <button className="button1" >Cancelar hora</button>
             </Link>
+            <Link to="/Identificacion">
+              <button className="button1" >Obtener datos del paciente</button>
+            </Link>
           </div>
         </div>
       </div>
