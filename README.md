@@ -14,4 +14,9 @@ Mern Stack code for the [Mern Tutorial](https://www.mongodb.com/languages/mern-s
 ## Videos
 * [Video presentación Hito 1](https://www.youtube.com/watch?v=WA3Brmtc2dE&ab_channel=MaxBardi)
 * [Video implementación Hito 4](https://www.youtube.com/watch?v=3SZS8kizCXA&ab_channel=MaxBardi)
-* [Video resultado final H6-7](https://www.youtube.com/watch?v=3SZS8kizCXA&ab_channel=MaxBardi)
+* [Video resultado final H6-7](https://www.youtube.com/watch?v=CsofGEh_QaA&ab_channel=MaxBardi)
+
+## Sobre el proyecto final (importante):
+* No entendemos porqué, pero nuestro código es muy pesado, por lo que se subirá en partes como branches. Son 2 branches, una llamada "server" y otra client, donde se pide que por favor se utilicen las 2 en una misma carpeta, incluyendo el package-lock.json
+* Se pide utilizar en una terminal un "cd client" y posterior a esto utilizar "npm install" y luego para ejecutar la página, insertar "npm start"
+* Posterior a lo anterior, se pide utilizar en una terminal un "cd server" (para estar dentro de la carpeta del servidor" y posterior a esto utilizar "npm nodemon" y luego para ejecutar la base de datos, insertar "npm run start". En caso de no funcionar, escriba "npm run dev", a priori el el anterior es mejor por temas de velociad. 
