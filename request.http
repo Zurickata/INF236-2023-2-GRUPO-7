@@ -1,0 +1,31 @@
+###
+POST http://localhost:5000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Alberto Fernandez",
+    "rut": "333456789-0",
+    "examen": "maniología",
+    "medico": "Juan Bahamondes",
+    "motivo": "le dieron maní",
+    "fecha": "11-27-2023",
+    "hora": "02:09"
+}
+
+###
+GET http://localhost:5000/api/users HTTP/1.1
+
+###
+GET http://localhost:5000/api/users/filtrar?rut=123456789-0&nombre=Javiera%20Osorio HTTP/1.1
+
+###
+PUT http://localhost:5000/api/users/123456789-0 HTTP/1.1
+Content-Type: application/json
+
+{
+    "fecha": "11-28-2023",
+    "hora": "04:09"
+}
+
+###
+DELETE http://localhost:5000/api/users/333456789-0 HTTP/1.1
